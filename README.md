@@ -6,8 +6,8 @@ graduação Go Expert.
 ## Especificações
 
 Deverão ser feitas duas requisições em paralelo consultando os dados de um CEP utilizando as duas APIs abaixo.
-- https://brasilapi.com.br/api/cep/v1/<cep>
-- http://viacep.com.br/ws/<cep>/json/
+- `https://brasilapi.com.br/api/cep/v1/<cep>`
+- `http://viacep.com.br/ws/<cep>/json/`
 
 A API que responder mais rápido deverá ter o resultado apresentado na linha de
 comando indicando qual a URL utilizada.
